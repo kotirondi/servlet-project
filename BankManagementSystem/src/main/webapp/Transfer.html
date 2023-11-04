@@ -1,10 +1,32 @@
-<!DOCTYPE html>
 <html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-
+<body style="background-color:lightblue;">
+<style>
+  body {
+    background-color: Tomato;
+  }
+  .form {
+    border: 4px solid black;
+    padding: 20px;
+    width: 450px;
+    margin: 10px auto;
+    background-color: yellow;
+    border-radius: 20px;
+  }
+</style>
+<center><br>
+<form method="POST" action="./transfer" class="form">
+<h1>TRANSFER MONEY</H1>
+<h2>AlcNUMBER</h2><input type="text" name="accno">
+<h2>PIN</h2><input type="password" name="pin">
+<h2>TargetAlcNUMBER</h2><input type="text" name="taccno">
+<h2>Amount</h2><input type="text" name="tamount">
+<div>
+<br>
+<button name="submit">TRANSFER</button></br>
+</div>
+<a href="home.html"><h1>Home</h2></a>
+<div>
+</center>
+</form>
 </body>
 </html>
