@@ -1,10 +1,42 @@
-<!DOCTYPE html>
+
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+    <title>Report</title>
+	<style>
+	
+	.form {
+    border: 4px solid black;
+    padding: 10px;
+    width: 400px;
+    margin: 150px auto;
+    background-color:#789865;
+    border-radius: 20px;
+  }
+  </style>
 </head>
-<body>
-
+<body style="background-color: #ff2344;">
+    <center>
+        <form method="POST" action="./report" class="form"> 
+            <table>
+                <tr>
+                    <td colspan="2"><center><h1>REPORT</h1></center></td>
+                </tr>
+                <tr>
+                    <td><h2>Account Number:</h2></td>
+                    <td><h2><input type="text" name="accno" placeholder="Account Number"></h2></td>
+                </tr>
+                <tr>
+                    <td><h4>Write report here:</h4></td>
+                    <td><textarea rows="10" cols="20" name="report" placeholder="write here"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><center><br><br>
+                        <button type="submit" name="submit">REPORT</button></center>
+                    </td>
+                </tr>
+				<tr><td colspan="2"><a href="31.html"><button type="submit">Home</button></a></td></tr>
+            </table>
+        </form>
+    </center>
 </body>
 </html>
