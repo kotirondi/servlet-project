@@ -1,10 +1,40 @@
-<!DOCTYPE html>
 <html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
+<body style="background-color:lightblue;">
+<style>
+  body {
+    background-color: Tomato;
+  }
+  .form {
+    border: 4px solid black;
+    padding: 20px;
+    width: 450px;
+    margin: 10px auto;
+    background-color: yellow;
+    border-radius: 20px;
+  }
+</style>
 
+<center><br>
+<form method="POST" action="./new" class="form" >
+<h1>CREATE BANK ACCOUNT !</H1>
+<table>
+<tr><td><h4>USERNAME:</td></h4><td><h4><input type="text" name="user"></td></h4></tr>
+<tr><td><h4>PASSWORD:</td></h4><td><h4><input type="text" name="pass"></td></h4></tr>
+<tr><td><h4>AMOUNT  :</td></h4><td><h4><input type="text" name="amo"></td></h4></tr>
+<tr><td><h4>ADDRESS :</td></h4><td><h4><input type="text" name="add"></td></h4></tr>
+<tr><td><h4>E-MAIL  :</td></h4><td><h4><input type="text" name="mail"></td><h4></tr>
+<tr><td><h4>AADHARNO:</td></h4><td><h4><input type="text" name="aadh"></td></h4></tr>
+<tr><td><h4>DOB     :</td></h4><td><h4><input type="text" name="dob"></td></h4></tr>
+<tr><td><h4>CONTACT :</td></h4><td><h4><input type="text" name="con"></td></h4></tr>
+<tr><td><h4>AGE     :</td></h4><td><h4><input type="text" name="age"></td></h4></tr>
+<tr><td><h4>GENDER:</td></h4><td><h4><input type="radio" name="gender" value="male" checked>Male</td></h4>
+              <td><h4><input type="radio" name="gender" value="male">female</td></h4></tr>
+
+<tr><td><h4>OCCUPATION:</h4></td><td><h4><input type="text" name="occ"></td></h4></tr>
+
+<tr><td colspan="2"><button name="submit">Submit</button></td></tr>
+</table>
+</form>
+</center>
 </body>
-</html>
+<html>
