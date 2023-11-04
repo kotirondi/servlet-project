@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+    <title>PIN CHANGE</title>
 </head>
-<body>
-
+<body style="background-color: lightblue;">
+    <center><br>
+        <form method="POST" action="./change"> 
+            <h1>CHECK YOUR BALANCE</h1>
+            <h2>Account Number</h2><input type="text" name="accno"placeholder="Account Number">
+            <h2>OldPIN</h2><input type="password" name="Oldpin" placeholder="OLD PASSWORD">
+			<h2>NewPIN</h2><input type="password" name="Newpin" placeholder="NEW PASSWORD">
+            <div><br>
+                <button type="submit" name="submit">CHANGE</button></br>
+            </div>
+        </form>
+    </center>
 </body>
 </html>
