@@ -1,1 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+    <servlet>
+        <servlet-name>svm</servlet-name>
+        <servlet-class>Bankreg</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>svm</servlet-name>
+        <url-pattern>/Banksign</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>srm</servlet-name>
+        <servlet-class>Banklogin</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>srm</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+
+   <servlet>
+        <servlet-name>as</servlet-name>
+        <servlet-class>NEWACC</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>as</servlet-name>
+        <url-pattern>/new</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>chh</servlet-name>
+        <servlet-class>check</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>chh</servlet-name>
+        <url-pattern>/balcheck</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>with</servlet-name>
+        <servlet-class>Withdraw</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>with</servlet-name>
+        <url-pattern>/withdraw</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>depo</servlet-name>
+        <servlet-class>Deposit</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>depo</servlet-name>
+        <url-pattern>/deposit</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>tran</servlet-name>
+        <servlet-class>Transfer</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>tran</servlet-name>
+        <url-pattern>/transfer</url-pattern>
+    </servlet-mapping>
+
+   <servlet>
+        <servlet-name>clr</servlet-name>
+        <servlet-class>CloseAcc</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>clr</servlet-name>
+        <url-pattern>/close</url-pattern>
+    </servlet-mapping>
+
+
+
+   <servlet>
+        <servlet-name>ch</servlet-name>
+        <servlet-class>Change</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ch</servlet-name>
+        <url-pattern>/change</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>rep</servlet-name>
+        <servlet-class>Report</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>rep</servlet-name>
+        <url-pattern>/report</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+</web-app>
